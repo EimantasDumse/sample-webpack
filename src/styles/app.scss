@@ -1,0 +1,30 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+// Font downloaded from `Google fonts` to test it.
+@font-face {
+    font-family: "BalooChettan";
+    src: url("../assets/fonts/BalooChettan-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "BalooChettan";
+}
+
+.starter {
+    padding-bottom: 20px;
+
+    span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    i {
+        padding-left: 10px;
+    }
+}
+
+.apple {
+    background: url("../assets/images/apple.jpg") no-repeat;
+    width: 300px;
+    height: 300px;
+}
